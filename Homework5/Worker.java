@@ -1,7 +1,6 @@
 package Office;
 
     public class Worker {
-
         String name;
         String position;
         String numberPhone;
@@ -17,13 +16,11 @@ package Office;
             this.salary = salary;
             this.age = age;
         }
-
         String getUserInfo() {
             return ("Имя: " + name + " \nДолжность: " + position +
                    " \nЗарплата: " + salary + " \nВозвраст: " + age +
                    " \nНомер телефона:" + numberPhone + " \nEmail:" + email + "\n");
         }
-
         void printUserInfo() {
             System.out.println(getUserInfo() + "\n================================\n");
         }
