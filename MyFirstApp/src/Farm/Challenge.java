@@ -1,7 +1,6 @@
 package Farm;
 
 class Challenge{
-    
     public static void main(String[] args) {
          challenge();
          Dog.setDogCount();
